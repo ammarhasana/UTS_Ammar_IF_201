@@ -1,4 +1,10 @@
 root {}
 * {
-  background-color: coral;
+  background-color: rgb(53, 34, 97);
+  padding-bottom: 2pt;
+  padding-right: 2pt;
+  padding-left: 3pt;
+  padding-top: 3pt;
+  text-align: justify;
+  font-family: Verdana;
 }
