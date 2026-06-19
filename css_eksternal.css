@@ -1,10 +1,11 @@
 root {}
 * {
   background-color: rgb(53, 34, 97);
-  padding-bottom: 2pt;
-  padding-right: 2pt;
-  padding-left: 3pt;
-  padding-top: 3pt;
-  text-align: justify;
+  max-width: auto;
+  padding: 25px;
+  margin:auto;
+  text-align: center;
   font-family: Verdana;
-}
+  color: white;
+  font-size: auto;
+  background-image: "./gambar1.jpg" ;
