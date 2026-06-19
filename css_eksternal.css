@@ -1,11 +1,37 @@
-root {}
+
 * {
   background-color: rgb(53, 34, 97);
   max-width: auto;
-  padding: 25px;
+  padding: 10px;
   margin:auto;
   text-align: center;
   font-family: Verdana;
   color: white;
   font-size: auto;
-  background-image: "./gambar1.jpg" ;
+}
+.h1 {
+  font-size: auto;
+  font-weight: normal;
+  padding: 15px;
+  color:beige;
+  text-align: center;
+}
+
+.h2{
+  font-size: auto;
+  font-weight: normal;
+  color:beige;
+  text-align: left;
+  /* list-style-type: disc; */
+  padding-top: 70px;
+}
+
+.h2_kecil{
+  font-size: 12px;
+  font-weight: normal;
+  padding: 10px;
+  color:beige;
+  text-align: center;
+  /* list-style-type: disc; */
+  padding-top: 10px;
+}
