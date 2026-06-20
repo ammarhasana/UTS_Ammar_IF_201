@@ -9,6 +9,7 @@ header {
 
 
 body {
+  /* membuat background gambar */
   background-image: url("./gambar1.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -18,7 +19,9 @@ body {
 
 * {
   max-width: auto;
-  padding-top: 20px;
+  min-width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: Verdana;
   color: beige;
   font-size: auto;
@@ -26,20 +29,24 @@ body {
 
 .h1 {
   background-color: rgba(55, 37, 95,0.90);
+  /* membuat tulisan dan logo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 10px;
+  /*text formatting*/
   font-weight: normal;
   padding-left: 15px;
   color:beige;
-  text-align: center;
+  text-align: left;
 }
 
 .h1_kecil{
-  font-size: 15px;
+  font-size: 25px;
   font-weight: normal;
-  padding: 10px;
   color:beige;
-  text-align: center;
-  /* list-style-type: disc; */
-  padding-top: 10px;
+  text-align: left;
 }
 
 .h2{
@@ -47,6 +54,8 @@ body {
   font-weight: normal;
   color:beige;
   text-align: left;
+  padding: 20px;
+  /* tipe dari penulisan list */
   list-style-type: circle;
   list-style-position: inside;
 }
@@ -54,9 +63,15 @@ body {
 .h2_kecil{
   font-size: 12px;
   font-weight: normal;
+  color:beige;
+  text-align: left;
+}
+
+.h2_p{
+  font-size: 17px;
+  font-weight: normal;
   padding: 10px;
   color:beige;
-  text-align: center;
-  /* list-style-type: disc; */
+  text-align: justify;
   padding-top: 10px;
 }
