@@ -9,7 +9,7 @@ header {
 
 
 body {
-  /* membuat background gambar */
+  /* membuat background gambar 1 */
   background-image: url("./gambar1.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -25,6 +25,30 @@ body {
   font-family: Verdana;
   color: beige;
   font-size: auto;
+}
+
+.li_profil{
+  font-size: 35px;
+  font-style: bold;
+  color:beige;
+  text-align: left;
+  list-style-type: none;
+}
+
+.li_profil_sedang{
+  font-size: 25px;
+  font-weight: normal;
+  color:beige;
+  text-align: left;
+  list-style-type: none;
+}
+
+.li_profil_kecil{
+  font-size: 12px;
+  font-weight: normal;
+  color:beige;
+  text-align: left;
+  list-style-type: none;
 }
 
 .h1 {
@@ -70,7 +94,6 @@ body {
 .h2_p{
   font-size: 17px;
   font-weight: normal;
-  padding: 10px;
   color:beige;
   text-align: justify;
   padding-top: 10px;
