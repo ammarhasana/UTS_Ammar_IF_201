@@ -1,29 +1,54 @@
+header {
+  text-align: center;
+  font-size: auto;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+
+body {
+  background-image: url("./gambar1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;  
+}
+
 
 * {
-  background-color: rgb(53, 34, 97);
   max-width: auto;
-  padding: 10px;
-  margin:auto;
-  text-align: center;
+  padding-top: 20px;
   font-family: Verdana;
-  color: white;
+  color: beige;
   font-size: auto;
 }
+
 .h1 {
-  font-size: auto;
+  background-color: rgba(55, 37, 95,0.90);
   font-weight: normal;
-  padding: 15px;
+  padding-left: 15px;
   color:beige;
   text-align: center;
+}
+
+.h1_kecil{
+  font-size: 15px;
+  font-weight: normal;
+  padding: 10px;
+  color:beige;
+  text-align: center;
+  /* list-style-type: disc; */
+  padding-top: 10px;
 }
 
 .h2{
-  font-size: auto;
+  background-color: rgba(55, 37, 95,0.90);
   font-weight: normal;
   color:beige;
   text-align: left;
-  /* list-style-type: disc; */
-  padding-top: 70px;
+  list-style-type: circle;
+  list-style-position: inside;
 }
 
 .h2_kecil{
